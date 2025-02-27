@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeautyHub - Premium Beauty Services</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="./static/css/custom.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">BeautyHub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary ms-2" href="partner.html">Become a Partner</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<section class="hero">
+    <div class="container">
+        <div class="row align-items-center min-vh-80">
+            <div class="col-lg-6">
+                <div class="hero-content fade-in">
+                    <h1>Transform Your Beauty Journey</h1>
+                    <p>Experience premium beauty services crafted for the modern individual. Our expert professionals deliver excellence in every treatment.</p>
+                    <div class="hero-buttons d-flex gap-3">
+                        <a href="#booking" class="btn btn-primary">Book Now</a>
+                        <a href="/services" class="btn btn-outline-primary">View Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services-overview">
+    <div class="container">
+        <div class="section-title">
+            <h2>Our Services</h2>
+            <p>Discover our range of premium beauty treatments</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="service-card fade-in">
+                    <i class="fas fa-spa"></i>
+                    <h4>Spa & Wellness</h4>
+                    <p>Rejuvenating treatments designed to restore balance and vitality</p>
+                    <p class="price">From $80</p>
+                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-card fade-in">
+                    <i class="fas fa-cut"></i>
+                    <h4>Hair Styling</h4>
+                    <p>Expert styling services for a transformative look</p>
+                    <p class="price">From $50</p>
+                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-card fade-in">
+                    <i class="fas fa-magic"></i>
+                    <h4>Makeup</h4>
+                    <p>Professional makeup artistry for any occasion</p>
+                    <p class="price">From $60</p>
+                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gallery-section py-5">
+    <div class="container">
+        <div class="section-title">
+            <h2>Beauty Transformations</h2>
+            <p>Discover the magic of our beauty treatments</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="gallery-card fade-in">
+                    <div class="gallery-image">
+                        <img src="./attached_assets/photo-1560750588-73207b1ef5b8 (1).webp" alt="Spa Treatment" class="img-fluid">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Luxury Spa Experience</h4>
+                        <p>Rejuvenating treatments for mind and body</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="gallery-card fade-in">
+                    <div class="gallery-image">
+                        <img src="./attached_assets/photo-1516975080664-ed2fc6a32937 (1).webp" alt="Hair Styling" class="img-fluid">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Expert Hair Styling</h4>
+                        <p>Transform your look with our expert stylists</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="gallery-card fade-in">
+                    <div class="gallery-image">
+                        <img src="./attached_assets/photo-1522337360788-8b13dee7a37e (1) (1).webp" alt="Makeup Artistry" class="img-fluid">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Professional Makeup</h4>
+                        <p>Enhance your natural beauty</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gallery-showcase py-5">
+    <div class="container">
+        <div class="section-title">
+            <h2>Our Gallery</h2>
+            <p>Explore our world of beauty transformations</p>
+        </div>
+        <div class="gallery-grid">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item fade-in">
+                        <img src="./attached_assets/photo-1487412947147-5cebf100ffc2.webp" alt="Makeup" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <span class="gallery-category">Makeup</span>
+                            <h4>Professional Makeup</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item fade-in">
+                        <img src="./attached_assets/photo-1519415510236-718bdfcd89c8.webp" alt="Hair Styling" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <span class="gallery-category">Hair</span>
+                            <h4>Creative Styling</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item fade-in">
+                        <img src="./attached_assets/photo-1519415510236-718bdfcd89c8.webp" alt="Spa" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <span class="gallery-category">Spa</span>
+                            <h4>Luxury Treatment</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item fade-in">
+                        <img src="./attached_assets/photo-1519415510236-718bdfcd89c8.webp" alt="Facial" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <span class="gallery-category">Facial</span>
+                            <h4>Skin Treatment</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item fade-in">
+                        <img src="./attached_assets/photo-1487412947147-5cebf100ffc2.webp" alt="Manicure" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <span class="gallery-category">Nails</span>
+                            <h4>Nail Art</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item fade-in">
+                        <img src="./attached_assets/photo-1487412947147-5cebf100ffc2.webp" alt="Beauty" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <span class="gallery-category">Beauty</span>
+                            <h4>Complete Look</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="process-section py-5 bg-light">
+    <div class="container">
+        <div class="section-title">
+            <h2>Our Beauty Process</h2>
+            <p>Experience luxury beauty treatment in 4 simple steps</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="process-card fade-in">
+                    <div class="process-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h4>1. Book</h4>
+                    <p>Schedule your appointment online</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="process-card fade-in">
+                    <div class="process-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h4>2. Consult</h4>
+                    <p>Free consultation with experts</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="process-card fade-in">
+                    <div class="process-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h4>3. Transform</h4>
+                    <p>Experience the treatment</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="process-card fade-in">
+                    <div class="process-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <h4>4. Glow</h4>
+                    <p>Enjoy your new look</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- <section class="tips-section py-5">
+    <div class="container">
+        <div class="section-title">
+            <h2>Beauty Tips & Trends</h2>
+            <p>Expert advice for your beauty routine</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="tip-card fade-in">
+                    <div class="tip-image">
+                        <img src="https://images.unsplash.com/photo-1498843053639-170ff2122f35" alt="Skincare Tips" class="img-fluid">
+                    </div>
+                    <div class="tip-content">
+                        <h4>Daily Skincare</h4>
+                        <p>Essential steps for radiant skin</p>
+                        <a href="#" class="btn btn-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="tip-card fade-in">
+                    <div class="tip-image">
+                        <img src="https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388" alt="Hair Care Tips" class="img-fluid">
+                    </div>
+                    <div class="tip-content">
+                        <h4>Hair Care Guide</h4>
+                        <p>Tips for healthy, shiny hair</p>
+                        <a href="#" class="btn btn-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="tip-card fade-in">
+                    <div class="tip-image">
+                        <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348" alt="Makeup Tips" class="img-fluid">
+                    </div>
+                    <div class="tip-content">
+                        <h4>Makeup Trends</h4>
+                        <p>Latest beauty trends and tutorials</p>
+                        <a href="#" class="btn btn-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<section id="booking" class="booking-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Book Your Session</h2>
+            <p>Schedule your appointment with our beauty experts</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="booking-form fade-in">
+                    <form>
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <label class="form-label">Service Type</label>
+                                <select class="form-select">
+                                    <option selected disabled>Select a service</option>
+                                    <option>Spa & Wellness</option>
+                                    <option>Hair Styling</option>
+                                    <option>Makeup</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Preferred Date</label>
+                                <input type="date" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Full Name</label>
+                                <input type="text" class="form-control" placeholder="Your name">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Phone</label>
+                                <input type="tel" class="form-control" placeholder="Your phone number">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" placeholder="Your email">
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary w-100">Confirm Booking</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <div class="container">
+        <div class="section-title">
+            <h2>Client Stories</h2>
+            <p>Hear what our clients have to say about their experience</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="testimonial-card fade-in">
+                    <div class="rating mb-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"An exceptional spa experience. The attention to detail and level of service was outstanding."</p>
+                    <div class="testimonial-info">
+                        <h5>Sarah Mitchell</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial-card fade-in">
+                    <div class="rating mb-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The hair styling service exceeded my expectations. My stylist was creative and professional."</p>
+                    <div class="testimonial-info">
+                        <h5>Emily Chen</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial-card fade-in">
+                    <div class="rating mb-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Perfect makeup for my special day. The artist understood exactly what I wanted."</p>
+                    <div class="testimonial-info">
+                        <h5>Rachel Adams</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="enquiry-section bg-light">
+    <div class="container">
+        <div class="row g-4 align-items-center">
+            <div class="col-lg-5">
+                <h2>Get in Touch</h2>
+                <p class="mb-4">Have questions about our services? We're here to help.</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> hello@beautyhub.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Beauty Street, NY 10001</p>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="enquiry-form fade-in">
+                    <h3>Send us a Message</h3>
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Your Email">
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="faq py-5 bg-white">
+    <div class="container">
+        <div class="section-title">
+            <h2>Frequently Asked Questions</h2>
+            <p>Find answers to common questions about our services</p>
+        </div>
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <div class="accordion fade-in" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                How do I book a service?
+                            </button>
+                        </h3>
+                        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                You can book a service through our website by selecting your desired service and choosing an available time slot.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                What is your cancellation policy?
+                            </button>
+                        </h3>
+                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                We require at least 24 hours notice for cancellations. Late cancellations may incur a fee.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                Do you offer gift cards?
+                            </button>
+                        </h3>
+                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Yes, we offer digital gift cards that can be used for any of our services.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer mt-5 py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5 class="footer-heading mb-4">BeautyHub</h5>
+                <p class="footer-text">Your premium destination for beauty services.</p>
+                <p class="footer-tagline mt-3"><i class="fas fa-sparkles me-2"></i>Elevate your beauty journey with us</p>
+            </div>
+            <div class="col-md-4">
+                <h5 class="footer-heading mb-4">Quick Links</h5>
+                <ul class="list-unstyled footer-links">
+                    <li class="mb-2"><a href="/services" class="footer-link"><i class="fas fa-angle-right me-2"></i>Services</a></li>
+                    <li class="mb-2"><a href="/about" class="footer-link"><i class="fas fa-angle-right me-2"></i>About Us</a></li>
+                    <li class="mb-2"><a href="/contact" class="footer-link"><i class="fas fa-angle-right me-2"></i>Contact</a></li>
+                    <li class="mb-2"><a href="/partner" class="footer-link"><i class="fas fa-angle-right me-2"></i>Partner with Us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5 class="footer-heading mb-4">Connect With Us</h5>
+                <div class="social-icons">
+                    <a href="#" class="social-icon-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon-link"><i class="fab fa-pinterest"></i></a>
+                </div>
+                <div class="newsletter mt-4">
+                    <h6 class="mb-3">Subscribe to our newsletter</h6>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Your email">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="footer-divider my-4">
+        <div class="row">
+            <div class="col-md-6 footer-copyright">
+                <p>&copy; 2023 BeautyHub. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <a href="#" class="footer-link-small me-3">Privacy Policy</a>
+                <a href="#" class="footer-link-small me-3">Terms of Service</a>
+                <a href="#" class="footer-link-small">Cookie Policy</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./static/js/main.js"></script>
+</body>
+</html>
