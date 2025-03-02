@@ -1,0 +1,134 @@
+/* Services Page Specific Styles */
+.services-hero {
+    background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), 
+                url('https://images.unsplash.com/photo-1560869713-da86a9ec0680?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0 80px;
+    text-align: center;
+}
+
+.services-hero h1 {
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+}
+
+.services-hero .lead {
+    color: #2c3e50d9;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Service Sections */
+.service-section {
+    padding: 80px 0;
+}
+
+.service-section h2 {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.service-section .lead {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.service-features {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+.service-features li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.service-features li i {
+    color: var(--primary-color);
+    margin-right: 1rem;
+}
+
+/* Video Container */
+.video-container {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    position: relative;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Booking Form */
+.booking-section {
+    background-color: var(--light-bg);
+}
+
+.booking-form-container {
+    background: #fff;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form-container h2 {
+    color: var(--text-color);
+    margin-bottom: 2rem;
+}
+
+.booking-form .form-label {
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.booking-form .form-control,
+.booking-form .form-select {
+    border: 1px solid rgba(var(--primary-rgb), 0.2);
+    padding: 0.75rem;
+    border-radius: 8px;
+}
+
+.booking-form .form-control:focus,
+.booking-form .form-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(var(--primary-rgb), 0.15);
+}
+
+.booking-form .btn-primary {
+    padding: 0.75rem 2.5rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .service-section {
+        padding: 60px 0;
+    }
+    
+    .video-container {
+        margin: 2rem 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .services-hero {
+        padding: 100px 0 60px;
+    }
+    
+    .booking-form-container {
+        padding: 2rem;
+    }
+}
