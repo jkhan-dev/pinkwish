@@ -11,7 +11,23 @@
     --neumorphic-shadow: 0 8px 32px #0000001a;
 }
 
-
+::-webkit-scrollbar {
+    width:10px
+    }
+    
+    ::-webkit-scrollbar-track {
+    background:var(--light-bg)
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    background:var(--primary-color);
+    border-radius:5px;
+    transition:all .3s ease
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background:var(--secondary-color)
+    }
 
 html {
     scroll-behavior: smooth;
@@ -522,6 +538,11 @@ p {
 
 .footer-divider {
     border-color: rgba(var(--primary-rgb), 0.1);
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
 }
 
 .footer-copyright {

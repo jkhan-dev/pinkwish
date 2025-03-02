@@ -48,9 +48,9 @@
     background:var(--secondary-color)
     }
     
-    /* html {
+    html {
     scroll-behavior:smooth
-    } */
+    }
     
     body {
         font-family: 'Montserrat', sans-serif;
@@ -951,17 +951,7 @@
     .gallery-card:hover .gallery-image img {
     transform:scale(1.05)
     }
-    
-    .gallery-overlay {
-    position:absolute;
-    bottom:0;
-    left:0;
-    right:0;
-    padding:1.5rem;
-    background:linear-gradient(to top,#000c,transparent);
-    color:#fff
-    }
-    
+        
     .gallery-overlay h4 {
     font-size:1.2rem;
     margin-bottom:.5rem;
@@ -1109,9 +1099,9 @@
     left:0;
     right:0;
     padding:2rem;
-    background:linear-gradient(to top,#000c 0%,#0006 50%,transparent 100%);
+    background:linear-gradient(to top,#000c 0%,#0006 75%,transparent 100%);
     color:#fff;
-    opacity:0;
+    opacity:1;
     transform:translateY(20px);
     transition:all .4s ease
     }
